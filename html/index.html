@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+
+    <link rel="stylesheet" href="../css/calculator.css">
+
+</head>
+
+<body>
+    <div>
+        <h1 class="page-title">
+            Conversor de Temperatura</h1>
+        <p class="page-subtitle">
+            Celsius → Fahrenheit
+        </p>
+
+        <input type="number" id="ivalor" placeholder="Digite a temperatura em Celsius"><br>
+        <button type="submit" onclick="Converter()">Converter</button>
+
+
+        <h2 style="padding-top: 1%;">
+            <p id="ivalorConvertido"></p>
+        </h2>
+
+    </div>
+
+
+    <div>
+
+        <p style="margin-top: 2%;">Fahrenheit → Celsius</p>
+
+        <input type="number" id="ivalor2" placeholder="Digite a temperatura em Fahrenheit"><br>
+        <button type="submit" onclick="Converter2()">Converter</button>
+
+        <h2 style="padding-top: 1%;">
+            <p id="ivalorConvertido2"></p>
+        </h2>
+
+    </div>
+
+    <script src=" ../js/calculator.js">
+    </script>
+
+
+</body>
+
+</html>
